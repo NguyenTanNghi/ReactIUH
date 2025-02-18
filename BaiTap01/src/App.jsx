@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <div>
-        Hello world
         <Mycomponent></Mycomponent> 
 	</div>
       </>)
