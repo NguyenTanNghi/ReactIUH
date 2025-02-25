@@ -2,7 +2,7 @@ import { useState } from "react"
 
 function Contact({ contacts, onDelete }) {
     
-    return (contacts.map((contact) => (
+    return (<>{contacts.map((contact) => (
         <div className="contact" key={contact.id}>
             <div className="info">
                 <h2 className="firstName">{contact.firstName}</h2>
@@ -12,7 +12,7 @@ function Contact({ contacts, onDelete }) {
             <p className="address">Address: <span>{contact.address}</span></p>
             <button className="delete" onClick={() => onDelete(contact.id)}>Delete</button>
         </div>
-    )))
+    ))}</>)
 
 
 
