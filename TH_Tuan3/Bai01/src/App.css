@@ -1,0 +1,47 @@
+.contact{
+  border: 1px solid rgb(143, 129, 129);
+  padding: 10px;
+}
+.info{
+  border-bottom: 1px solid rgb(143, 129, 129);
+  padding: 10px;
+}
+.info :nth-child(1){
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+.info :nth-child(2){
+  color: rgb(30, 66, 66);
+  font-weight: bold;
+}
+.phone{
+  border-bottom: 1px solid rgb(143, 129, 129);
+  padding: 10px;
+}
+span{
+  font-size: 19px;
+  font-weight: bold;
+}
+.delete{
+  background: red;
+  border: none;
+  border-radius: 15px;
+  font-size: 30px;
+  color: whitesmoke;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+.deleteAll{
+  background: red;
+  border: none;
+  border-radius: 15px;
+  font-size: 30px;
+  color: whitesmoke;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+  left: 1400px;
+}
