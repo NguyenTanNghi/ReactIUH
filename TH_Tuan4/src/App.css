@@ -1,0 +1,53 @@
+*{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1{
+  color: rgb(149, 63, 175);
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: 3px solid green;
+  font-size: 50px;
+}
+.theTitle:hover{
+  text-shadow: 10px 7px 10px;
+}
+.userL {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.userL:hover {
+  background-color: #222b3d;
+  color: white;
+  border: 2px solid whitesmoke;
+}
+
+.user-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.user-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-card .card-header:hover {
+  background-color: #798ca0;
+}
+
+.user-card .card-body p:hover {
+  color: #7c92aa;
+}
+img{
+  width: 300px;
+  border-radius: 25px;
+  transition: transform 0.5s, box-shadow 0.3s;
+}
+img:hover{
+  transform: scale(1.09);
+}
