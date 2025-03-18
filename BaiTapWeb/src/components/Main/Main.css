@@ -1,0 +1,29 @@
+.full-width-image {
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+.main-nav {
+    width: 420px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 45%;
+    left: 22%;
+    transform: translate(-50%, -45%);
+    z-index: 1;
+  }
+  
+
+.main-span{
+    position: absolute; 
+    top: -15px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFC415;
+    padding: 5px 40px;
+    border-radius: 7px;
+}

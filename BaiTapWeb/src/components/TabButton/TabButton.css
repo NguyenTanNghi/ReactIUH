@@ -1,0 +1,20 @@
+.btn-1 {
+    background-color: rgb(243, 221, 244);
+    color: #ff69b4;
+    border: 2px solid #ff69b4;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+  }
+
+  .btn-2 {
+    background-color: #ff69b4;
+    color: white;
+    border: 2px solid #ff69b4;
+    padding: 8px 20px;
+    border-radius: 8px;
+  }
+  .viewnow{
+    width: 150px;
+  }
